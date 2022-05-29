@@ -4,6 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Emerentius <emerentius@arcor.de>"]
 
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+scipy = "^1.8.1"
+plotnine = "^0.8.0"
+PyQt5 = "^5.15.6"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.960"
+pylint = "^2.13.9"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
