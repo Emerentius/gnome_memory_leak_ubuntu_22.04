@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "gnome_memory_leak_ubuntu_22_04"
+version = "0.1.0"
+description = ""
+authors = ["Emerentius <emerentius@arcor.de>"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
